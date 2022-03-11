@@ -1,7 +1,8 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
-/* main - 0-positive_or_negative.c
+/* main - 
 *Return: Always 0 (success)
 */
 /* betty style doc for function main goes there */
