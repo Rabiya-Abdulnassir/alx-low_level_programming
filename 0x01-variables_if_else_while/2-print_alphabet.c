@@ -1,17 +1,20 @@
 #include <stdio.h>
+#include <type.h>
 /**
- * main - Alphabet game
+ * main - alphabet order
  *
  * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	char ch = "a";
-       for (; ch <="z"; ch++)
-       {	
-	       putchar(ch);
-       	       putchar(\n);
-       }	       
+	char ch;
+
+	for (ch = "a"; ch <= "z"; ch++)
+	{
+		putchar(ch);
+		putchar(\n);
+	}
 	return (0);
+
 }
