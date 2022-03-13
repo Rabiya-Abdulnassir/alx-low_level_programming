@@ -19,8 +19,8 @@ for (i = '0' ; i <= '9' ; i++)
 			putchar(j);
 			if (i != '8')
 			{
-     				putchar(',');
-                        	putchar(' ');
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
