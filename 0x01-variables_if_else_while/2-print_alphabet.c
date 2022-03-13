@@ -11,7 +11,7 @@ int main()
 
 	for (ch = "a"; ch <= "z"; ch++)
 	{
-		putchar(ch"\n");
+		 char putchar(char ch);
 	}
 	return (0);
 }
