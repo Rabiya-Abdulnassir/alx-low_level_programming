@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 /**
  * main - alphabet order
  *
@@ -8,7 +7,7 @@
 
 int main(void)
 {
-	char ch = "a";
+#char ch = "a";
 
 	for (; ch <= "z"; ch++)
 	{
