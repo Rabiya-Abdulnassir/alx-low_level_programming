@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main - print if the number is postive, zero, or negative
+* main - printing small latters
 *
 * Return: Always 0 (success)
 */
