@@ -1,19 +1,18 @@
 #include <stdio.h>
 /**
- * main - alphabet order
- *
- * Return: Always 0 (success)
- */
-
+* main - print if the number is postive, zero, or negative
+*
+* Return: Always 0 (success)
+*/
 int main(void)
 {
-	char ch ;
 
-	for (ch = "a" ; ch <= "z" ; ch++)
-	{
-		 putchar(ch);
-		 
-	}
-	putchar('\n');
-	return (0);
+char ch;
+
+for (ch = 'a' ; ch <= 'z' ; ch++)
+{
+	putchar(ch);
+}
+putchar('\n');
+return (0);
 }
