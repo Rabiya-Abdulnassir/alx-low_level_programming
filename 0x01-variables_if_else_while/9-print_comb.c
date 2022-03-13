@@ -7,13 +7,12 @@
 
 int main(void)
 {
-	char ch = ',';
 	int i;
 
 	for (i = '0' ; i <= '9' ; i++)
 	{
 	    	putchar(i);
-		putchar(ch);
+		putchar(',');
 		putchar('\n');
 	}
 	putchar('\n');
