@@ -13,10 +13,10 @@ int main(void)
 	{
 		for (j = '1' ; j <= '9' ; j++)
 		{
+			 if (i != j && i < j)
+                                {
 				putchar(i);
 				putchar(j);
-				if (i != j && i < j)
-				{
 				putchar(',');
 				putchar(' ');
 			}
