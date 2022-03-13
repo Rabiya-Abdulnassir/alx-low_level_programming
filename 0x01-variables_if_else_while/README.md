@@ -1,1 +1,1 @@
-variabels, if statment, for loop while loop
+variabels, if statment, for loop while loo
