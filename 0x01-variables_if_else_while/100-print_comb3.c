@@ -6,27 +6,27 @@
  */
 int main(void)
 {
-	int i;
-	int j;
+int i;
+int j;
 
-	for (i = '0' ; i <= '9' ; i++)
+for (i = '0' ; i <= '9' ; i++)
+{
+	for (j = '1' ; j <= '9' ; j++)
 	{
-		for (j = '1' ; j <= '9' ; j++)
+		if (i != j && i < j)
 		{
-			if (i != j && i < j)
+			if (i != '8' && j != '9')
 			{
-				if (i != '9' && j != '9')
-                                        {
-						putchar(i);
-                                                putchar(j);
-				 		putchar(',');
-						putchar(' ');
-					}
+				 putchar(i);
+			         putchar(j);
+                                 putchar(',');
+                                 putchar(' ');
 			}
 		}
 	}
-	putchar('\n');
-	return (0);
+}
+putchar('\n');
+return (0);
 
 }
 
