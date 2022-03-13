@@ -15,11 +15,10 @@ for (i = '0' ; i <= '9' ; i++)
 	{
 		if (i != j && i <= j)
 		{
-			
-				 putchar(i);
-			         putchar(j);
-                                 putchar(',');
-                                 putchar(' ');
+		       	putchar(i);
+		        putchar(j);
+                        putchar(',');
+                        putchar(' ');
 				
  			
 		}
