@@ -20,7 +20,7 @@ int main(void)
 			{
 				for (r = '1' ; r <= '9' ;)
 				{
-					if (i = j && k != r)
+					if (i != j && k != r)
 					{
 						putchar(i);
 						putchar(j);
