@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Printing numbers using putchar
- *  
+ *
  * Return: Always 0 (success)
  */
 
