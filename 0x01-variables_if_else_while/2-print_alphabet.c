@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <type.h>
 /**
  * main - alphabet order
  *
