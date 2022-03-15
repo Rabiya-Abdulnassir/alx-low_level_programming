@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * mian - displaying 
+ * mian - displaying
+ *
  * Return: Always 0 (success)
  */
 void print_alphabet(void)
@@ -11,7 +12,6 @@ void print_alphabet(void)
 	{
 		_putchar(ch);
 	}
-
 	_putchar('\n');
 	return;
 }
