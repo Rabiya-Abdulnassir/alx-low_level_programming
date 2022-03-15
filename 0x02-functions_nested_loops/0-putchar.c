@@ -5,14 +5,14 @@
  */
 int main(void)
 {
-	char *ch = "_putchar "
+	char *c = "_putchar "
 
-		while (*ch != ' ')
+		while (*c != ' ')
 		{
 			_putchar(*ch);
-			ch++;
+			c++;
 		}
 
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
