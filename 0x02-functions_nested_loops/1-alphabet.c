@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * mian - displaying
-(*
+ * void - displaying
+ *
  * Return: Always 0 (success)
  */
-
 void print_alphabet(void)
 {
 	char ch = 'a';
