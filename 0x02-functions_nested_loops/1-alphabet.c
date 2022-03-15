@@ -3,7 +3,7 @@
  * mian - displaying 
  * Return: Always 0 (success)
  */
-int main(void)
+void print_alphabet(void)
 {
 	char ch = 'a';
 
@@ -13,5 +13,5 @@ int main(void)
 	}
 
 	_putchar('\n');
-	return (0);
+	return;
 }
