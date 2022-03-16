@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * void - printing mintis of the track
+ * jack_bauer - printing mintis of the track
  *
- * Return: no value 
+ * Return: Alwayb 0
  */
 void jack_bauer(void)
 {
@@ -12,14 +12,12 @@ void jack_bauer(void)
 		{
 			for (minutes_ones = 0 ; minutes_ones < 60 ; minutes_ones++)
 			{
-				
-						
-					_putchar((minutes_tens / 10) + '0');
-					_putchar((minutes_tens % 10) + '0');
-					_putchar(':'); 
-					_putchar((minutes_ones / 10) + '0');
-					_putchar((minutes_ones % 10)+ '0');
-					_putchar('\n');
+				_putchar((minutes_tens / 10) + '0');
+				_putchar((minutes_tens % 10) + '0');
+				_putchar(':'); 
+				_putchar((minutes_ones / 10) + '0');
+				_putchar((minutes_ones % 10)+ '0');
+				_putchar('\n');
 			}
 		}
 }
