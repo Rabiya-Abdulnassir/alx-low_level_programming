@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * time_tabel - print the 9 time tabel
+ * time_table - print the 9 time tabel
  *
  * Return: Always 0
  */
@@ -25,14 +25,14 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
-                                _putchar((k % 10) + '0');
+				_putchar((k % 10) + '0');
 			}
 			else
 			{
 				_putchar(',');
 				_putchar(' ');
-                                _putchar((k / 10) +'0');
-                                _putchar((k % 10) + '0');
+				_putchar((k / 10) + '0');
+				_putchar((k % 10) + '0');
 			}
 		}
 		_putchar('\n');
