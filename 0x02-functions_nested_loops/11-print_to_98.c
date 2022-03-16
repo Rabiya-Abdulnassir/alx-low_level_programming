@@ -2,13 +2,13 @@
 /**
  * print_to_98 - print all natural numbers 
  *
- * Return: ALways o
+ * Return: ALways 0
  */
 void print_to_98(int n)
 {
 	if (n < 99)
 	{
-	for (n = n ; n < 99 ; n++)
+	for (n = 'n' ; n < 99 ; n++)
 	{
 		_putchar(n + '0');
 		_putchar(',');
@@ -16,7 +16,7 @@ void print_to_98(int n)
 	}
 	else
 	{
-	for (n = n ; n > 99 ; n--)
+	for (n = 'n' ; n > 99 ; n--)
 	{
 		_putchar(n + '0');
 		_putchar(',');
