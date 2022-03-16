@@ -6,5 +6,21 @@
  */
 void jack_bauer(void)
 {
-	int minutes_tens, minutes_ones, second_tens, second_ones, maxim_minutes;
+	int minutes_tens, minutes_ones, second_ones, second_tens, minutes_max
 
+		for (minutes = 0 ; minutes <= 30 ; minutes++)
+		{
+			for (seconds = 0 ; seconds <= 59 ; seconds++)
+			{
+				if (minutes != 4 && seconds != 59)
+				{
+					_putchar(minutes);
+					_putchar(minutes);
+					_putchar(':'); 
+					_putchar(seconds);
+					_putchar(seconds);
+					_putchar('\n');
+				}
+			}
+		}
+}
