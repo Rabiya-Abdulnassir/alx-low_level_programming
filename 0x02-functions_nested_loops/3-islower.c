@@ -2,8 +2,8 @@
 
 /**
  * _islower - check the code.
- *@c: is an ASCII CODE	
- * Return: Always 0.
+ * @c: is an ASCII CODE	
+ * Return: 1 if lowercase.
  */
 int _islower(int c)
 {
@@ -15,7 +15,6 @@ int _islower(int c)
 	{
 		return (0);
 	}
-	return (0);
 }
 
 
