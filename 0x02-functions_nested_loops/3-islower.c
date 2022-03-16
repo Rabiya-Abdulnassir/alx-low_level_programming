@@ -2,12 +2,13 @@
 
 /**
  * _islower - check the code.
- * @c: is an ASCII CODE	
+ * @c: is an ASCII code
+ *
  * Return: 1 if lowercase.
  */
 int _islower(int c)
 {
-	if (c <= 'a' && c <= 'z')
+	if (c >= 'a' && c >= 'z')
 	{
 		return (1);
 	}
