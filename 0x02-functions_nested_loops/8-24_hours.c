@@ -14,9 +14,9 @@ void jack_bauer(void)
 			{
 				_putchar((minutes_tens / 10) + '0');
 				_putchar((minutes_tens % 10) + '0');
-				_putchar(':'); 
+				_putchar(':');
 				_putchar((minutes_ones / 10) + '0');
-				_putchar((minutes_ones % 10)+ '0');
+				_putchar((minutes_ones % 10) + '0');
 				_putchar('\n');
 			}
 		}
