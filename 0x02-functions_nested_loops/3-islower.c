@@ -2,7 +2,7 @@
 
 /**
  * _islower - check the code.
- *
+ *@c: is an ASCII CODE	
  * Return: Always 0.
  */
 int _islower(int c)
@@ -15,6 +15,7 @@ int _islower(int c)
 	{
 		return (0);
 	}
+	return (0);
 }
 
 
