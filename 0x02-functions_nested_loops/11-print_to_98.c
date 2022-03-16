@@ -6,7 +6,7 @@
  */
 void print_to_98(int n)
 {
-	if (n < 98)
+	if (n < 99)
 	{
 	for (n = n ; n < 99 ; n++)
 	{
@@ -22,5 +22,4 @@ void print_to_98(int n)
 		_putchar(',');
 	}
 	}
-	_putchar("98");
 }
