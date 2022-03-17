@@ -2,6 +2,7 @@
 /**
  * _isupper - checkout uppercase
  *
+ * @c: intiger value
  * Return: Always 0
  */
 int _isupper(int c)
