@@ -1,6 +1,6 @@
 #include "mian.h"
 /**
- * print_number - number from 0 to 9
+ * print_numbers - number from 0 to 9
  *
  * Return: always none
  */
