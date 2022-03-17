@@ -18,4 +18,5 @@ int _isupper(int c)
 		}
 		_putchar('\n');
 	}
+	return (0);
 }
