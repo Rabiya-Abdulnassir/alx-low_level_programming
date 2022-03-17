@@ -1,8 +1,8 @@
-#include "mian.h"
+#include "main.h"
 /**
  * print_numbers - number from 0 to 9
  *
- * Return: always none
+ * Return: always 0
  */
 
 void print_numbers(void)
