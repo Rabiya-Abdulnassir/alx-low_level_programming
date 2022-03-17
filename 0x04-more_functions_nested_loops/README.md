@@ -1,1 +1,1 @@
-more function, more netsted loops
+C - More functions, more nested loops
