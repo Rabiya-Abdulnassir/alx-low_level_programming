@@ -3,7 +3,7 @@
  * _isupper - checkout uppercase
  *
  * @c: intiger value
- * Return: Always 0
+ * Return: 1 or 0
  */
 int _isupper(int c)
 {
@@ -17,7 +17,5 @@ int _isupper(int c)
 		{
 			return (0);
 		}
-		_putchar('\n');
 	}
-	return (0);
 }
