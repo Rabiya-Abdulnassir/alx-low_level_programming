@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_line - short distance
- *
+ * @n: number
  * Return: Always 0
  */
 
