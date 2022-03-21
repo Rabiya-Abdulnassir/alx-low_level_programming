@@ -11,5 +11,5 @@ int p = 98;
 n = &p;
 _putchar('n');
 *n = 402;
-_putchar(*n);
+_putchar('n');
 }
