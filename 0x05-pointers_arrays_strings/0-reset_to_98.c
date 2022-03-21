@@ -1,7 +1,6 @@
 #include "main.h"
 /**
-* reset_to_98 - update the value 
-* 
+* reset_to_98 - update the value
 * @n: pointer
 * Return: ALways 0
 */
@@ -12,5 +11,5 @@ int p = 402;
 n = &p;
 _putchar('n');
 *n = 98;
- _putchar('n');
+_putchar('n');
 }
