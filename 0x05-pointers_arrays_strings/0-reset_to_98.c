@@ -9,9 +9,9 @@ void reset_to_98(int *n)
 {
 int p;
 n = &p;
-printf("value of 'n': %d\n",n);
-ptintf("Address of 'n': %P\n",&p);
-printf("value of 'p': %P\n",p);
+_putchar(n);
+_putchar(&p);
+_putchar(p);
 *n = 402;
- printf("value of 'n': %d\n",n);
+ _putchar(n);
 }
