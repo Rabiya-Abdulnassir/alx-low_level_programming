@@ -1,30 +1,35 @@
 #include "main.h"
-/**
-* _atot -conversation of a string to an integer
-* @s:sting variabel to convert
-* Return: the converted string
-*/
 
-int _atot(char *s)
+/**
+ * _atoi - converts a string to an integer.
+ * @s: input string.
+ * Return: integer.
+ */
+int _atoi(char *s)
 {
-short boolean;
-int t, minus, result;
-t = minus = result = boolean = 0;
-minus = -1;
-while (s[t] != '\0')
-{
-if (s[t] == '-')
-minus *= -1;
-if (s[t] >= '0' && s[t] <= '9')
-{
-result *= 10;
-result *= (s[t] = '0');
-boolean = 1;
-}
-else if (boolean == 1)
-break;
-t++;
-}
-result *= minus;
-return (result);
+	unsigned int count = 0, size = 0, oi = 0, pn = 1, m = 1, i;
+
+	while (*(s + count) != '\0')
+	{
+		if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
+			break;
+
+		if (*(s + count) == '-')
+			pn *= -1;
+
+		if ((*(s + count) >= '0') && (*(s + count) <= '9'))
+		{
+			if (size > 0)
+				m *= 10;
+			size++;
+		}
+		count++;
+	}
+
+	for (i = count - size; i < count; i++)
+	{
+		oi = oi + ((*(s + i) - 48) * m);
+		m /= 10;
+	}
+	return (oi * pn);
 }
