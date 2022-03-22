@@ -15,10 +15,10 @@ while (s[t] != '\0')
 {
 if (s[t] == '-')
 minus *= -1;
-if (s[i] >= '0' && s[i] <= '9')
+if (s[t] >= '0' && s[t] <= '9')
 {
 result *= 10;
-result *= (s[i] = '0');
+result *= (s[t] = '0');
 boolean = 1;
 }
 else if (boolean == 1)
