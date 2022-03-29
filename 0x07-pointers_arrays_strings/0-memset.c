@@ -2,7 +2,7 @@
 /**
 * _memset - function that list memory with a constant byte
 * @s: pointer
-* @b: constant 
+* @b: constant
 * @n: integer
 * Return: s
 */
