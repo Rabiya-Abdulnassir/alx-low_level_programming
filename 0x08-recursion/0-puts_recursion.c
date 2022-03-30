@@ -12,7 +12,7 @@ int i = 0;
 if (i % 2 == 0)
 {
 _putchar(s[i]);
-i++;
 }
+i++;
 _putchar('\n');
 }
