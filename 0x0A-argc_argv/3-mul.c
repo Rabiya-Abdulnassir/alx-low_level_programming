@@ -9,13 +9,11 @@
 
 int main(int argc, char *argv[])
 {
-int i;
-int mul = 1;
+int mul;
 
-if (argc > 0)
+if (argc == 3)
 {
-for (i = 0; argc++; i++)
-mul = (mul)*(atoi(argv[i]));
+mul = atoi(argv[1]) * atoi(argv[i]);
 printf("%d\n", mul);
 }
 else
