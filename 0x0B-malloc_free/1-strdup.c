@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "mian.h"
+#include "main.h"
 /**
 * _strdup - a function that return a pointer to newwly allocated space
 * @str: a pointer copy of string
