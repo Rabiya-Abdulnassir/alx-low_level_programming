@@ -1,6 +1,7 @@
 #include "main.h"
+#include <stddef.h>
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 /**
  * string_nconcat - concatenates 2 strings, takes the first n chars of s2
  * @s1: string 1
