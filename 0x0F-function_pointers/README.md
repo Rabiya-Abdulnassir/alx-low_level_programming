@@ -1,1 +1,1 @@
-function pointer
+c-function pointer
